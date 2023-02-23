@@ -72,7 +72,7 @@ class Client:
         self.connections = []
 
     # Collects and processes the list of a available devices
-    def get_devices(self) -> None:
+    def refresh_devices(self) -> None:
         request = requests.get(
             f"https://rita-server.herokuapp.com/student?={str(self.UUID)}"
         )

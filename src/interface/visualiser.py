@@ -92,6 +92,8 @@ class Visualiser(tk.Tk):
     def _refresh(self):
         while True:
             if self._state:
+
+                self._client.refresh_devices()
                 location = self._client.get_location()
 
                 self._client_coordinates.set(f"( {location[0]}, {location[1]} )  M")
