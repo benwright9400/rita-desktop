@@ -1,0 +1,85 @@
+QWidget {
+    color: #F8F7F8;
+    background-color: #0E0E22;
+    font: 22px "Roboto Regular";
+}
+
+QFrame {
+    border-radius: 12px;
+    background-color: #36334C;
+}
+
+QLabel {
+    background-color: "transparent";
+}
+
+#title {
+    font: 40px "Roboto Medium";
+}
+
+#subtitle {
+    font: 24px "Roboto Medium";
+}
+
+#legend_colour_primary {
+    border-radius: 8px;
+    background-color: #D94C65;
+}
+
+#legend_colour_secondary {
+    border-radius: 8px;
+    background-color: #4C84D9;
+}
+
+#questions_title {
+    font: 28px "Roboto Regular";
+}
+
+#questions_footer {
+    color: #9A95A0;
+}
+
+QScrollBar {
+    background: transparent;
+    margin: 0;
+}
+
+QScrollBar:hover {
+    background: #161616;
+}
+
+QScrollBar:vertical {
+    width: 8px;
+}
+
+QScrollBar:horizontal {
+    height: 8px;
+}
+
+QScrollBar::handle {
+    padding: 0;
+    margin: 2px;
+    border-radius: 2px;
+    border: 2px solid #0E0E22;
+    background: #0E0E22;
+}
+
+QScrollBar::handle:vertical {
+    min-height: 20px;
+    min-width: 0px;
+}
+
+QScrollBar::handle:horizontal {
+    min-width: 20px;
+    min-height: 0px;
+}
+
+QScrollBar::handle:hover {
+    border-color: #545070;
+    background: #545070;
+}
+
+QScrollBar::handle:pressed {
+    background: #563975;
+    border-color: #563975;
+}
